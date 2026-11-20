@@ -63,6 +63,7 @@
             btnBaslat.TabIndex = 2;
             btnBaslat.Text = "Başlat";
             btnBaslat.UseVisualStyleBackColor = true;
+            btnBaslat.Click += btnBaslat_Click;
             // 
             // btnDurdur
             // 
@@ -73,6 +74,7 @@
             btnDurdur.TabIndex = 3;
             btnDurdur.Text = "Durdur";
             btnDurdur.UseVisualStyleBackColor = true;
+            btnDurdur.Click += btnDurdur_Click;
             // 
             // btnTemizle
             // 
@@ -82,6 +84,7 @@
             btnTemizle.TabIndex = 4;
             btnTemizle.Text = "Temizle";
             btnTemizle.UseVisualStyleBackColor = true;
+            btnTemizle.Click += btnTemizle_Click;
             // 
             // btnKaydet
             // 
@@ -91,6 +94,7 @@
             btnKaydet.TabIndex = 5;
             btnKaydet.Text = "Dosyaya Kaydet (.txt)";
             btnKaydet.UseVisualStyleBackColor = true;
+            btnKaydet.Click += btnKaydet_Click;
             // 
             // lstKayitlar
             // 
@@ -115,6 +119,7 @@
             KeyPreview = true;
             Name = "Form1";
             Text = "Key Event Logger - YMH 219";
+            KeyDown += Form1_KeyDown;
             ResumeLayout(false);
             PerformLayout();
         }
