@@ -13,6 +13,11 @@ Bu proje, C# Windows Forms (.NET) kullanılarak geliştirilmiş, uygulama pencer
 * **Nesne Tabanlı Mimari (OOP):** Veri modeli (`KeyLogEntry`) ve iş mantığı/dosya yönetimi (`KeyLoggerManager`), arayüz katmanından (`Form1`) tamamen ayrılmıştır.
 * **Dışa Aktarma & Hata Yönetimi:** Kaydedilen tuş geçmişi `SaveFileDialog` aracılığıyla `.txt` formatında dışa aktarılabilir; boş liste ve dosya yazma hataları kontrollü şekilde yönetilir.
 
+* ## Bilinen Sınırlamalar ve Geliştirme Notları
+
+* Uygulama etik ve güvenlik sınırları gereği yalnızca kendi penceresi aktif (odaklı) durumdayken klavye olaylarını yakalar; arka plan veya sistem geneli tuş dinleme (global hook) yapmaz.
+* İlerleyen sürümlerde JSON formatında dışa aktarma ve oturum bazlı tuş sıklığı istatistik grafiği eklenebilir.
+
 ## Kurulum ve Çalıştırma
 1. Depoyu bilgisayarınıza klonlayın:
    ```bash
