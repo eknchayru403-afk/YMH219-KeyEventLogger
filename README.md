@@ -2,7 +2,7 @@
 
 * **Öğrenci Adı Soyadı:** Hayrunnisa Ekinci
 * **Öğrenci Numarası:** 240541043
-* **Ders:** YMH 219 - Görsel Programlama / Nesne Yönelimli Programlama
+* **Ders:** YMH 219 - Nesne Tabanlı Programlama
 
 ## Proje Hakkında
 
